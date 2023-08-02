@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+  padding: .5rem 1rem; 
+  box-shadow:5px 5px 30px rgba(0,0,0,0.5) ;
+}
+
+.navbar-brand{
+  font-size: 25px;
+  font-weight: 800;
+  color: #29f700;
+}
+#logo{
+  color: #29f700;
+}
+
+ /* adding style to all btn  */
+.btn{
+  background:green;
+  border-radius: 10px;
+}
+
+.navbar a:hover{
+  color: #29f700;
+
+}
+.navbar button{
+  background: #29f700;
+}
+
+.navbar button{
+  background:#29f700;
+  
+}
+
+section{
+  width: 100%;
+  min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+
+/* home */
+
+#home{
+  
+  background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,1)),url(image/g-4.jpg);
+  background-size: cover;
+ 
+  background-position: center;
+
+}
+
+#home h1{
+  font-size: 50px;
+  color: white;
+  letter-spacing: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 0px 1px 0px #ccc,
+  0px 2px 0px #ccc,
+  0px 3px 0px #ccc,
+  0px 4px 0px #ccc,
+  0px 5px 0px #ccc;
+              
+}
+
+#home p{
+  font-size: 18px;
+  color: white;
+}
+
+/* cards styling  */
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  align-items: center;
+}
+.card {      
+  margin: 0 0.5em;
+  box-shadow: 12px 16px 18px rgba(22, 22, 26, 0.18),
+              inset 4px 4px 80px white;
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+.card:hover{
+  box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+              inset -4px -4px 10px white;
+  transition: .2s;
+}
+
+
+
+/* contact style */
+#contact-img{
+  width: 90%;
+  height: 80%;
+  padding: 20px;
+}
